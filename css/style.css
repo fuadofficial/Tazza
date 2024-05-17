@@ -31,7 +31,7 @@ body {
 
 .contact-section {
     background-image: url(../images/footer-bk.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -58,13 +58,34 @@ body {
 
 /* for responsive */
 
+/* for tap view */
+
+@media (max-width:991px) {
+    #focuzSlider .carousel-caption h2 {
+        font-size: 30px;
+    }
+
+    #focuzSlider .carousel-caption a {
+        font-size: 20px;
+    }
+}
+
+/* for mobile view */
+
 @media (max-width:767px) {
     .header-section .navbar-brand img {
         width: 200px;
     }
-}
 
-@media (max-width:767px) {
+    #focuzSlider .carousel-caption h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    #focuzSlider .carousel-caption a {
+        font-size: 10px;
+    }
+
     .address-box {
         text-align: center;
     }
