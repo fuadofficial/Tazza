@@ -43,11 +43,29 @@ body {
     margin-bottom: 20px;
 }
 
+.contact-box .form-group button {
+    margin-bottom: 20px;
+}
+
 .contact-box .form-control {
     height: 50px;
 }
 
 .address-box p {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 30px;
+}
+
+/* for responsive */
+
+@media (max-width:767px) {
+    .header-section .navbar-brand img {
+        width: 200px;
+    }
+}
+
+@media (max-width:767px) {
+    .address-box {
+        text-align: center;
+    }
 }
