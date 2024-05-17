@@ -5,3 +5,22 @@ body {
 .bg-black {
     background-color: black;
 }
+
+.home-slider h2 {
+    font-size: 48px;
+    line-height: auto;
+}
+
+.home-slider .btn-outline-light {
+    font-size: 28px;
+    line-height: normal;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.about-section h3 {
+    font-size: 40px;
+}
